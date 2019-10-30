@@ -6,7 +6,7 @@ export const App = () => {
   //get a deep copy of default theme. Is there better way to do this?
   const customTheme = JSON.parse(JSON.stringify(VictoryTheme.grayscale)); 
   
-  //set the padding property on bar labels to 0
+  //set the padding property on scatter labels to 0
   customTheme.scatter.style.labels.padding = 0;
   
   return (
